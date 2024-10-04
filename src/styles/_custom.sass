@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 65%
+    right: 78%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 23%
 
 
 @keyframes float1
@@ -17,3 +17,328 @@
 
   100%
     transform: translateY(0px)
+
+
+.banner-principal .tarjeta 
+  img, svg 
+    display: auto
+    border-style: hidden
+
+  figure, picture, img, svg 
+    margin: 0
+    width: 80%
+    
+    
+.banner-principal__componente 
+  margin-bottom: 50px
+
+
+.banner-principal__row 
+    justify-content: space-around
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+    color: black
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+    color: black
+
+
+
+.img-t
+  width: auto
+  height: auto
+.img-a
+  display: block
+  margin: auto
+
+
+.titulo-segundo:after 
+    content: ''
+    display: block
+    height: 4.5px
+    width: 150px
+    border-left: solid 50px
+
+
+.titulo-sexto 
+    margin-bottom: 24px
+    border-left: 6px solid
+    padding: 4px 0 5px 15px
+    border-left-color: #4B96E3
+
+
+.bg1
+  background-color:#FA6D61
+
+
+.icono
+  width: 50px
+
+
+.subt
+  &::after   
+    content: ""
+    display: block
+    height: 4.5px
+    width: 250px
+    background-color: #FA6D61
+    border-radius: 50px
+
+.subt1
+  &::after   
+    content: ""
+    display: block
+    height: 4.5px
+    width: 400px
+    background-color: #FA6D61
+    border-radius: 50px
+
+.bg2
+  background-color: #FA6D61
+  border-radius: 15px
+  &:hover
+    background-color: #4B96E3
+
+
+.acordion__accion__btn--a
+  background-color: #FFDC39
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azul
+  background-color: #FEE2DF
+
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #DBEAFA
+
+.fa-plus:before 
+    content: "\f067"
+    color: #0D66BF
+
+.fa-minus:before 
+    content: "\f068"
+    color: #0D66BF
+
+
+
+.bg3
+  background-color: #4B96E3
+  border-radius: 0px !important
+  .slyder-a__bullets  
+    display: none
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #FFBE01
+    border-color: #FFBE01
+    opacity: 1
+
+@media (min-width: 768px) 
+    .col-md-11 
+        flex: 0 0 auto
+        width: 88.666667%
+    
+.bg7
+  background-color: #FFD4CE !important 
+  border-radius: 10px
+
+.tabs-a.color-primario .tabs-a__tab__selected 
+    background-color: #FFDC39 !important
+    color: black
+
+.tabs-a.color-primario .tabs-a__tab__selected:before 
+    background-color: #FFDC39 !important
+
+.tabs-a__tab:last-child 
+    margin-bottom: 0 !important
+    background-color: #4B96E3!important
+
+.tabs-a__tab
+    display: block
+    width: 100%
+    text-align: center
+    padding: 15px 20px
+    border-radius: 5px
+    line-height: 1.2em
+
+
+.tarjeta.color-primario
+  &:hover
+    background-color: #4B96E3
+
+
+
+.cont_5_1, .cont_5_1 *
+  position: relative
+.cont_5_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 70%
+  top: 15%
+  bottom: 15%
+  left: -15%
+  background-size: 100% 100%
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #8AB2EE !important
+
+.colt
+  background-color: #4B96E3
+
+
+
+.resaltado 
+    background-color:#C8DFF7
+    border-radius: 50px 0px 0px 50px    
+    font-weight: bold
+
+
+.mov
+  position: relative
+  left: -40%
+  top: -5px
+
+
+.pasos-a.color-secundario .pasos-a__circle div 
+    color: white
+
+
+.left
+  text-align: left
+
+
+
+@media (min-width: 992px) 
+    .col-lg-1 
+        flex: 0 0 auto
+        width: 6.333333%
+    
+
+
+.fondo1
+  background: url('../assets/curso/temas/fondo1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.tarjetaf
+  background-color: #fff
+  border-radius: 15px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 50px
+    height: 50px
+    background-color:#FFBE01
+    border-radius: 50%
+
+.slyder-a__bullets__item 
+    background-color: #AAC9E9
+    border-color: #AAC9E9
+.slyder-a__bullets__item--active 
+    background-color: #0D66BF !important
+    border-color: #0D66BF !important
+
+
+
+
+.tabla-a
+  td  
+    border: 1.5px solid #E1E1E1
+    padding: 1.75em
+.tabla-a
+  th  
+    padding: 1.75em
+    border: 1.5px solid #FEFAF6 
+
+.tabla-a thead 
+    border-top: 6px solid
+    color: black
+    background-color: #FEFAF6
+
+
+
+.img-infografica.color-acento-contenido .img-infografica__item__numero, .img-infografica-b.color-acento-contenido .img-infografica__item__numero 
+    color: black
+
+.text-black
+  color: black !important
+  font-weight: 700
+
+
+.img-infografica.color-acento-contenido .img-infografica__item__dot:before, .img-infografica.color-acento-contenido .img-infografica__item__dot:after, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:after 
+    background-color: #BDD8ED
+    opacity: -1
+
+
+.fas.fa-circle:before 
+    content: url('../assets/curso/temas/ic.svg')
+
+
+.tarjeta--slyder.b1
+  background: url('../assets/curso/temas/fond.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: cover
+
+.fa-chevron-right:before 
+    content: url('../assets/curso/temas/der.png')
+
+.fa-chevron-left:before 
+    content: url('../assets/curso/temas/iz.png')
+
+
+
+.cajon.color-primario 
+    background-color: #FED3CF
+
+
+.mov
+  position: absolute
+  left: 90%
+  top: 74px
+.move
+  position: absolute
+  left: 70%
+  top: 85%
+  font-size: 14px
+
+
+.bloque-texto-b.color-secundario:before 
+    background-color: #C4D8F6
+
+.bloque-texto-b:before 
+    content: ''
+    display: block
+    position: absolute
+    top: 6%
+    bottom: -6px
+    left: 16%
+    right: 48px
+
+
+
+.tabla-a.peq
+  td  
+    border: 1.5px solid #E1E1E1
+    padding: 0.3em
+.tabla-a.peq
+  th  
+    padding: 1.3em
+    border: 1.5px solid #FEFAF6 

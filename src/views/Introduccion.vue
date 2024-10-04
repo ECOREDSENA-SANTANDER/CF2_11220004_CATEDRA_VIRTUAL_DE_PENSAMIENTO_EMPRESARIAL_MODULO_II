@@ -9,6 +9,14 @@
           i.fas.fa-info
       h1 Introducción
     
+    p.mb-4 Estimado aprendiz bienvenido al componente formativo “Identificación de recursos y viabilidad financiera del proyecto”. Para comenzar, le invitamos a consultar el siguiente video con el fin de conocer más información sobre las temáticas que se abordarán en este recurso educativo:
+
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
+      .col-lg-12.col-12.col-md-12
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/l6eyP2E45BM?si=wZ2pcVnyoZl6Pc64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. 
 </template>
 
 <script>
