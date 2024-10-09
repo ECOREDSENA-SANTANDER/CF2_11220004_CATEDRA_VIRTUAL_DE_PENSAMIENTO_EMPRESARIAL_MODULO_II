@@ -16,46 +16,111 @@ export default {
   data: () => ({
     cuestionario: {
       tema: 'Nombre del componente formativo',
-      titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      titulo: 'Ronda de preguntas',
+      introduccion:
+        '<b> Objetivo:</b> fortalecer conocimientos asociados al proceso de identificación de recursos y viabilidad financiera de un proyecto.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
-          texto: 'Texto pregunta 1 con <strong>Negrita</strong> <em>Itálica</.',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          texto:
+            'Etapa inicial del proceso de selección que busca identificar candidatos potenciales que encajen en la organización.',
+          imagen: require('@/assets/componentes/img1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción 1', esCorrecta: true },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Opción 4', esCorrecta: false },
+            { id: 'a', texto: 'Reclutamiento', esCorrecta: true },
+            { id: 'b', texto: 'Recursos físicos', esCorrecta: false },
+            { id: 'c', texto: 'Inducción', esCorrecta: false },
+            { id: 'd', texto: 'Flujo de caja', esCorrecta: false },
+            {
+              id: 'e',
+              texto: 'Tasa interna de retorno (TIR)',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto: 'Texto pregunta 2',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          texto:
+            'Elementos tangibles como terrenos, maquinaria y equipo que son esenciales para las operaciones de la empresa.',
+          imagen: require('@/assets/componentes/img2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Recursos físicos', esCorrecta: true },
+            { id: 'b', texto: 'Reclutamiento', esCorrecta: false },
+            { id: 'c', texto: 'Inducción', esCorrecta: false },
+            { id: 'd', texto: 'Flujo de caja', esCorrecta: false },
+            {
+              id: 'e',
+              texto: 'Tasa interna de retorno (TIR)',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: 'Texto pregunta 3',
-          imagen: require('@/assets/componentes/pregunta_3.png'),
-          barajarRespuestas: false,
+          texto:
+            'Proceso de integración de un nuevo empleado a la empresa, brindándole una visión general de su rol y de la organización.',
+          imagen: require('@/assets/componentes/img3.png'),
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción 1', esCorrecta: true },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Todas las anteriores', esCorrecta: false },
+            { id: 'a', texto: 'Inducción', esCorrecta: true },
+            { id: 'b', texto: 'Recursos físicos', esCorrecta: false },
+            { id: 'c', texto: 'Reclutamiento', esCorrecta: false },
+            { id: 'd', texto: 'Flujo de caja', esCorrecta: false },
+            {
+              id: 'e',
+              texto: 'Tasa interna de retorno (TIR)',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'Incluye las entradas y salidas de dinero en la operación de la empresa en un periodo determinado.',
+          imagen: require('@/assets/componentes/img4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Flujo de caja', esCorrecta: true },
+            { id: 'b', texto: 'Recursos físicos', esCorrecta: false },
+            { id: 'c', texto: 'Inducción', esCorrecta: false },
+            { id: 'd', texto: 'Reclutamiento', esCorrecta: false },
+            {
+              id: 'e',
+              texto: 'Tasa interna de retorno (TIR)',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'Indicador que mide la rentabilidad de un proyecto en comparación con su costo de financiamiento.',
+          imagen: require('@/assets/componentes/img5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tasa interna de retorno (TIR)',
+              esCorrecta: true,
+            },
+            { id: 'b', texto: 'Recursos físicos', esCorrecta: false },
+            { id: 'c', texto: 'Inducción', esCorrecta: false },
+            { id: 'd', texto: 'Flujo de caja', esCorrecta: false },
+            {
+              id: 'e',
+              texto: 'Reclutamiento',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',

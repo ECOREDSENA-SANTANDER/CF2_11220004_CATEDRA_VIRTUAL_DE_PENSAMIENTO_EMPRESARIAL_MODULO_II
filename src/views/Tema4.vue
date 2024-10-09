@@ -30,8 +30,8 @@
         p.mb-0 - Flujo de caja.
         p.mb-0 - Flujo de tesorería.
     
-    p.mb-4 La principal característica del estado financiero es que refleja el movimiento de efectivo de un proyecto, o de una empresa en un momento determinado, y debe indicar la situación de este al final del periodo estudiado. De acuerdo con el libro Finanzas Corporativas: “El flujo de efectivo se puede construir para periodos anteriores al momento presente, como para periodos posteriores al momento presente; en el primer caso, será un estado de flujos de efectivo histórico, y en el segundo caso, un estado de flujo de efectivo presupuestado.
-    p.mb-4 El estado de flujo de caja es especialmente valioso en proveer información de asuntos relacionados con el efectivo, como son:
+    p.mb-4(data-aos="fade-right") La principal característica del estado financiero es que refleja el movimiento de efectivo de un proyecto, o de una empresa en un momento determinado, y debe indicar la situación de este al final del periodo estudiado. De acuerdo con el libro Finanzas Corporativas: “El flujo de efectivo se puede construir para periodos anteriores al momento presente, como para periodos posteriores al momento presente; en el primer caso, será un estado de flujos de efectivo histórico, y en el segundo caso, un estado de flujo de efectivo presupuestado.
+    p.mb-4(data-aos="fade-right") El estado de flujo de caja es especialmente valioso en proveer información de asuntos relacionados con el efectivo, como son:
       
     SlyderF.custom.mb-5(columnas="col-md-6 col-xl-3 col-12")
       .tarjeta.tarjeta--slyder.b1.p-2
@@ -43,7 +43,7 @@
         .row.justify-content-center.p-4
           .col-12
             img.img-a.img-t.mb-4.my-3(src="@/assets/curso/temas/52.svg", alt="alt")
-            p.text-center.mb-3 CNecesidad de financiación externa y uso de la deuda a largo plazo.
+            p.text-center.mb-3 Necesidad de financiación externa y uso de la deuda a largo plazo.
       .tarjeta.tarjeta--slyder.b1.p-2
         .row.justify-content-center.p-4
           .col-12
@@ -60,9 +60,9 @@
             img.img-a.img-t.mb-4.my-3(src="@/assets/curso/temas/55.svg", alt="alt")
             p.text-center.mb-3 Habilidad del proyecto para generar el efectivo necesario para su operación.
 
-    p.mb-4 El flujo de efectivo en su concepción es dinámico, y muchos autores lo representan por la diferencia entre las entradas y salidas de dinero durante un periodo determinado. Por lo general, los ingresos son representados por el signo (+) y los egresos por el signo (-).
-    p.mb-4 En las finanzas de hoy en día el concepto de valor es comprendido como la capacidad económica de una empresa o proyecto para generar efectivo. Lo anterior es comprensible a través del cálculo y observación de los movimientos, donde los inversores lo tienen como pieza clave para tomar decisiones, como fuente relevante que componen los indicadores de Valor Presente Neto o Costo Anual Equivalente.
-    p.mb-4 En la construcción o elaboración de un estado de flujo de efectivo, se deben tener en cuenta los siguientes elementos básicos:
+    p.mb-4(data-aos="fade-right") El flujo de efectivo en su concepción es dinámico, y muchos autores lo representan por la diferencia entre las entradas y salidas de dinero durante un periodo determinado. Por lo general, los ingresos son representados por el signo (+) y los egresos por el signo (-).
+    p.mb-4(data-aos="fade-right") En las finanzas de hoy en día el concepto de valor es comprendido como la capacidad económica de una empresa o proyecto para generar efectivo. Lo anterior es comprensible a través del cálculo y observación de los movimientos, donde los inversores lo tienen como pieza clave para tomar decisiones, como fuente relevante que componen los indicadores de Valor Presente Neto o Costo Anual Equivalente.
+    p.mb-4(data-aos="fade-right") En la construcción o elaboración de un estado de flujo de efectivo, se deben tener en cuenta los siguientes elementos básicos:
     
     .row.justify-content-center.mb-0
       .col-lg-4.col-md-6.mb-4
@@ -89,7 +89,7 @@
           h4.text-center.mb-3 Saldo final de efectivo
           p.text-center.mb-0 Es el resultado de sumar el saldo inicial de efectivo y el flujo neto del periodo.
 
-    p.mb-4 La construcción del estado de flujo de efectivo proyectado hace parte de la etapa de presupuesto. Se obtiene a través de otras variables determinadas en el estudio de mercado y el estudio técnico, como son: niveles de ventas que condicionan el nivel de producción, precios, costos de producción, inversiones futuras, gastos operacionales, entre otras. En este estado financiero se puede determinar:
+    p.mb-4(data-aos="fade-right") La construcción del estado de flujo de efectivo proyectado hace parte de la etapa de presupuesto. Se obtiene a través de otras variables determinadas en el estudio de mercado y el estudio técnico, como son: niveles de ventas que condicionan el nivel de producción, precios, costos de producción, inversiones futuras, gastos operacionales, entre otras. En este estado financiero se puede determinar:
 
     ul.lista-ul.mb-5
       li.d-flex.mb-1
@@ -105,7 +105,7 @@
         i.fas.fa-circle
         p.mb-0 Cómo se invertirán los sobrantes de efectivos temporales. 
     
-    p.mb-4 Para elaborar un estado de flujo de efectivo proyectado se necesita:
+    p.mb-4(data-aos="fade-right") Para elaborar un estado de flujo de efectivo proyectado se necesita:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-md-9.col-9.mb-4.mb-lg-0(data-aos='fade-right')
@@ -146,7 +146,7 @@
                     .col-lg-9.col-md-9
                       p.mb-0 Todas las demás políticas que pueda tener la empresa y que incidan en los movimientos de efectivo.
     
-    p.mb-4 El estado de flujo de efectivo proyectado puede presentarse de manera simplificada, sin necesidad de organizar las entradas y salidas de efectivo con una estructura compleja. Por ejemplo:
+    p.mb-4(data-aos="fade-right") El estado de flujo de efectivo proyectado puede presentarse de manera simplificada, sin necesidad de organizar las entradas y salidas de efectivo con una estructura compleja. Por ejemplo:
     
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-12
@@ -155,7 +155,7 @@
           | Flujo de efectivo proyectado
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-6
-        img(src='@/assets/curso/temas/66.png', alt='tema1')
+        img(src='@/assets/curso/temas/66.png', alt='La figura presenta de manera simplificada cómo se puede estructurar un flujo de efectivo proyectado.')
         
     separador
     #t_4_2.titulo-segundo.color-primario

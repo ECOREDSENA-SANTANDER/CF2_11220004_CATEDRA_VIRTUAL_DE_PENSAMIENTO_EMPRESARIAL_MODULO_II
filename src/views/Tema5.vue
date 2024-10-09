@@ -18,8 +18,8 @@
     #t_5_1.titulo-segundo.color-primario
       h2 5.1 Punto de equilibrio
 
-    p.mb-4 Permite determinar, el nivel de un negocio en el cual los ingresos igualan a los egresos y por lo tanto no arroja ni ganancia ni pérdida. Se realiza para determinar las líneas más bajas de producción o ventas, con los cuales puede funcionar un proyecto sin poner en peligro la viabilidad financiera. Entre más bajo sea el punto de equilibrio, son mayores las probabilidades de que el proyecto obtenga utilidades y menor el riesgo de que incurra en pérdidas.
-    p.mb-4 Para calcularlo es necesario descomponer los costos en fijos y variables. Los costos fijos permanecen constantes, independientemente del volumen de producción, mientras que los costos variables guardan relación directa con el volumen de producción. Es recomendable trabajar con datos anuales al momento de calcular el punto de equilibrio. La fórmula del punto de equilibrio se puede establecer de la siguiente forma:
+    p.mb-4(data-aos="fade-right") Permite determinar, el nivel de un negocio en el cual los ingresos igualan a los egresos y por lo tanto no arroja ni ganancia ni pérdida. Se realiza para determinar las líneas más bajas de producción o ventas, con los cuales puede funcionar un proyecto sin poner en peligro la viabilidad financiera. Entre más bajo sea el punto de equilibrio, son mayores las probabilidades de que el proyecto obtenga utilidades y menor el riesgo de que incurra en pérdidas.
+    p.mb-4(data-aos="fade-right") Para calcularlo es necesario descomponer los costos en fijos y variables. Los costos fijos permanecen constantes, independientemente del volumen de producción, mientras que los costos variables guardan relación directa con el volumen de producción. Es recomendable trabajar con datos anuales al momento de calcular el punto de equilibrio. La fórmula del punto de equilibrio se puede establecer de la siguiente forma:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -34,23 +34,23 @@
                   p.mb-2 ___________________________________________________
                   p.mb-0 Precio de venta (PV) - Costo de venta unitario (CVU)
     
-    p.mb-4 En lo que respecta a la gráfica, el punto de equilibrio se puede representar de la siguiente forma:
+    p.mb-4(data-aos="fade-right") En lo que respecta a la gráfica, el punto de equilibrio se puede representar de la siguiente forma:
 
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-6
         .titulo-sexto.mb-4
           h5 Figura 3.
           | Punto de equilibrio
-    .row.justify-content-center(data-aos="zoom-in-left")(alt="")
+    .row.justify-content-center(data-aos="zoom-in-left")
       .col-lg-5
-        img(alt="" src="@/assets/curso/temas/69.svg")
+        img(src="@/assets/curso/temas/69.svg" alt="El gráfico presenta el punto de equilibrio, donde los ingresos por ventas igualan a los costos totales, ubicándose en 9,009 unidades vendidas. Los costos fijos se mantienen constantes, mientras que los costos variables aumentan con las ventas. A la izquierda del punto de equilibrio, la empresa incurre en pérdidas, y a la derecha, en ganancias. Esto ilustra cómo los costos y los ingresos se relacionan para determinar la viabilidad financiera de un negocio.")
 
     separador
     #t_5_2.titulo-segundo.color-primario
       h2 5.2 Tasa interna de oportunidad (TIO)
     
-    p.mb-4 El uso de dinero en el tiempo no puede ser gratuito, se debe reconocer una cantidad que sea proporcional a la posible pérdida que se asume, o el pago de un canon por la utilización del dinero, a este valor se le llama interés. Para mayor comprensión se tomará un ejemplo de Meza Orozco, J. D. J. (2011):  
-    p.mb-4 Si se presta hoy una cantidad de dinero (P) y después de un tiempo determinado se recibe una cantidad mayor (F), la variación del valor del dinero de P a F, se llama valor de dinero en el tiempo, y la diferencia entre F y P es el interés (I). La operación se representa mediante la siguiente expresión:  
+    p.mb-4(data-aos="fade-right") El uso de dinero en el tiempo no puede ser gratuito, se debe reconocer una cantidad que sea proporcional a la posible pérdida que se asume, o el pago de un canon por la utilización del dinero, a este valor se le llama interés. Para mayor comprensión se tomará un ejemplo de Meza Orozco, J. D. J. (2011):  
+    p.mb-4(data-aos="fade-right") Si se presta hoy una cantidad de dinero (P) y después de un tiempo determinado se recibe una cantidad mayor (F), la variación del valor del dinero de P a F, se llama valor de dinero en el tiempo, y la diferencia entre F y P es el interés (I). La operación se representa mediante la siguiente expresión:  
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-md-9
@@ -59,7 +59,7 @@
             .col-lg-6
               h2.mb-0.text-center I = F – P
 
-    p.mb-4 La tasa de interés se expresa como la relación entre lo que se recibe de intereses (I) y la cantidad prestada o invertida (P), esta tasa está expresada en forma porcentual, para un tiempo (n) determinado”.
+    p.mb-4(data-aos="fade-right") La tasa de interés se expresa como la relación entre lo que se recibe de intereses (I) y la cantidad prestada o invertida (P), esta tasa está expresada en forma porcentual, para un tiempo (n) determinado”.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-md-9
@@ -68,7 +68,7 @@
             .col-lg-6
               h2.mb-0.text-center i = I/P  x 100
 
-    p.mb-5 La tasa de oportunidad es la tasa de interés pertinente al costo de oportunidad. También se le puede considerar como la rentabilidad mínima requerida del proyecto de inversión, de acuerdo con el riesgo asumido, que, al ser comparada con el retorno esperado del proyecto, debe cubrir el capital inicial invertido, los costos de la operación, los intereses por pago de endeudamiento con terceros y cumplir con las expectativas de utilidad de los accionistas. 
+    p.mb-5(data-aos="fade-right") La tasa de oportunidad es la tasa de interés pertinente al costo de oportunidad. También se le puede considerar como la rentabilidad mínima requerida del proyecto de inversión, de acuerdo con el riesgo asumido, que, al ser comparada con el retorno esperado del proyecto, debe cubrir el capital inicial invertido, los costos de la operación, los intereses por pago de endeudamiento con terceros y cumplir con las expectativas de utilidad de los accionistas. 
     
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -93,38 +93,60 @@
     separador
     #t_5_3.titulo-segundo.color-primario
       h2 5.3 Valor Actual Neto (VAN) o Valor Presente Neto (VPN)
-    
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-10.col-12.mb-5.mb-lg-0
-        .bloque-texto-b.color-secundario.p-4.mb-2
-          .bloque-texto-b__texto
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-10.mb-lg-0
+        .bloque-texto-f.color-secundario.pt-4.px-5
+          .bloque-texto-f__comillas
             i.fas.fa-quote-left
-            h3.mb-0.d-flex.ps-5 Es el valor monetario que resulta de restar la suma de los flujos descontados a la inversión inicial.<br><br>
-            p.move (G. Baca Urbina)
-            i.fas.fa-quote-right.mov
+            i.fas.fa-quote-right
+          .row.justify-content-center.align-items-center.mb-2
+            .col-lg-11.mb-5.mb-lg-0
+              h3.bloque-texto-f__texto(data-aos="fade-left") Es el valor monetario que resulta de restar la suma de los flujos descontados a la inversión inicial.
+              .bloque-texto-f__autor.mb-3
+                p.mb-0.text-right (Baca Urbina, G., 2013).
 
-    p.mb-4 Entonces, el Valor Actual Neto (VAN) de un proyecto, se puede definir como el valor obtenido actualizado separadamente para cada año; extrayendo la diferencia entre todas las entradas y salidas de efectivo que suceden durante la vida de un proyecto a una tasa de interés fija predeterminada. También incluye las inversiones las cuales deben ser rescatadas del flujo neto de ingresos y egresos. 
-    p.mb-0 Debe tomarse en cuenta que la tasa de actualización debe ser igual a la tasa de interés pagada por el prestatario y refleja el costo de oportunidad del capital. 
-    p.mb-4 Para determinar el VAN se utiliza el Flujos de Fondos de la empresa. 
+    p.mb-4(data-aos="fade-right") Entonces, el Valor Actual Neto (VAN) de un proyecto, se puede definir como el valor obtenido actualizado separadamente para cada año; extrayendo la diferencia entre todas las entradas y salidas de efectivo que suceden durante la vida de un proyecto a una tasa de interés fija predeterminada. También incluye las inversiones las cuales deben ser rescatadas del flujo neto de ingresos y egresos. 
+    p.mb-0(data-aos="fade-right") Debe tomarse en cuenta que la tasa de actualización debe ser igual a la tasa de interés pagada por el prestatario y refleja el costo de oportunidad del capital. 
+    p.mb-4(data-aos="fade-right") Para determinar el VAN se utiliza el Flujos de Fondos de la empresa. 
 
-    p.mb-4 La fórmula que se emplea para el cálculo del VAN es la siguiente:
+    p.mb-4(data-aos="fade-right") La fórmula que se emplea para el cálculo del VAN es la siguiente:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
-        .cajon.color-primario.p-5
-          img.img-a.img-t(alt="" src="@/assets/curso/temas/72.svg")
+        .cajon.color-primario.p-4
+          .row.justify-content-center.align-items-center
+            .col-lg-2.col-md-3.col-3.pe-0
+              h3.my-3 VAN =
+            .col-lg-1.col-md-2.col-3.pe-0.ps-0.mb-lg-0
+              h4.mb-1 #[em t-n]
+              h4.mb-0 #[em t-0]
+            .col-lg-2.col-md-2.col-3.pe-0.ps-0.mb-lg-0
+              h3.my-3 I (t - Et)
+            .col-lg-2.col-md-3.col-3.pe-0.ps-0.mb-lg-0
+              h4.mb-0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1
+              h4.mb-0 ________
+              h4.mb-0 (1 + i)<sup>#[em n]</sup>
     
-    p.mb-4 De dónde:
+    p.mb-4(data-aos="fade-right") De dónde:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
-        .cajon.color-primario.p-5
-          img.img-a.img-t(alt="" src="@/assets/curso/temas/73.svg")
-
-    p.mb-0 Et = Egresos totales
-    p.mb-4 It = Ingresos totales
-
-    p.mb-4 Algunas situaciones que se pueden presentar en el análisis del VAN:
+        .cajon.color-primario.p-4
+          .row.justify-content-center.align-items-center.mb-4
+            .col-lg-2.col-md-3.col-3.pe-0.ps-0
+              h4.mb-0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1
+              h4.mb-0 ________
+              h4.mb-0 (1 + i)<sup>#[em n]</sup>
+            .col-lg-5.col-md-6.col-8.pe-0.ps-0
+              h4.mb-0 = Factor de actualización
+          .row.justify-content-center.align-items-center
+            .col-lg-6.col-md-6.col-6
+              h4.mb-3.text-center Et = Egresos totales
+            .col-lg-6.col-md-6.col-6
+              h4.mb-3.text-center It = Ingresos totales
+    
+    p.mb-4(data-aos="fade-right") Algunas situaciones que se pueden presentar en el análisis del VAN:
     
     .row.justify-content-center.mb-3
       .col-lg-4.col-md-6.mb-4
@@ -255,15 +277,15 @@
                 td.text-center 
                 td.text-center
     
-    p.mb-0 Para el caso de la tabla anterior, con una tasa de descuento de aproximadamente 19%, el resultado es un VAN positivo, por lo que se acepta la ejecución del proyecto. En el año cero (0) aparece la inversión inicial, y a partir del año 1 los flujos resultaron ser positivos, entonces la suma de todos los flujos se le resta a la inversión inicial de $12,845.4 por ser desembolso, lo que brinda un valor positivo final. 
+    p.mb-0(data-aos="fade-right") Para el caso de la tabla anterior, con una tasa de descuento de aproximadamente 19%, el resultado es un VAN positivo, por lo que se acepta la ejecución del proyecto. En el año cero (0) aparece la inversión inicial, y a partir del año 1 los flujos resultaron ser positivos, entonces la suma de todos los flujos se le resta a la inversión inicial de $12,845.4 por ser desembolso, lo que brinda un valor positivo final. 
 
     separador
     #t_5_4.titulo-segundo.color-primario
       h2 5.4 Tasa Interna de Retorno (TIR)
 
-    p.mb-4 La tasa interna de retorno se encarga de evaluar la rentabilidad de un proyecto de acuerdo con los flujos de caja para compararla con el costo de capital, es decir, al costo de financiación del proyecto. El costo de capital abarca dos aspectos importantes: los recursos propios y los proporcionados por entidades bancarias.
-    p.mb-4 Al hacer el cálculo de la tasa interna de retorno con los respectivos flujos de caja del proyecto, se obtendrá un valor representado en porcentaje. Del mismo modo, al realizar el cálculo del costo de capital con respecto al patrimonio y a los préstamos bancarios, adquirirá otro valor en porcentaje. Para poder aceptar el proyecto como rentable la tasa interna de retorno debe ser mayor al costo de capital. Por otro lado, el proyecto se rechaza si el costo de capital es mayor o igual a la tasa interna de retorno.
-    p.mb-4 En el siguiente ejemplo, se presenta el flujo de caja:
+    p.mb-4(data-aos="fade-right") La tasa interna de retorno se encarga de evaluar la rentabilidad de un proyecto de acuerdo con los flujos de caja para compararla con el costo de capital, es decir, al costo de financiación del proyecto. El costo de capital abarca dos aspectos importantes: los recursos propios y los proporcionados por entidades bancarias.
+    p.mb-4(data-aos="fade-right") Al hacer el cálculo de la tasa interna de retorno con los respectivos flujos de caja del proyecto, se obtendrá un valor representado en porcentaje. Del mismo modo, al realizar el cálculo del costo de capital con respecto al patrimonio y a los préstamos bancarios, adquirirá otro valor en porcentaje. Para poder aceptar el proyecto como rentable la tasa interna de retorno debe ser mayor al costo de capital. Por otro lado, el proyecto se rechaza si el costo de capital es mayor o igual a la tasa interna de retorno.
+    p.mb-4(data-aos="fade-right") En el siguiente ejemplo, se presenta el flujo de caja:
     
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-12
@@ -488,7 +510,7 @@
                     .col-lg-12
                       p.mb-0 6. Para concluir, se comparan los dos porcentajes: la TIR y el costo de capital, en este caso serían -2 % y - 1,9795%. Por lo tanto, el proyecto bajo el parámetro TIR no se acepta, debido a que el costo de capital es mayor que la tasa interna de retorno, lo cual genera pérdidas de 3,6926 % durante cada mes que se ejecute el proyecto.
     
-    p.mb-4 Esta tabla presenta el resumen para el cálculo del costo de capital.
+    p.mb-4(data-aos="fade-right") Esta tabla presenta el resumen para el cálculo del costo de capital.
 
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-12
@@ -536,7 +558,7 @@
                   p.mb-0 -3,6926 % 
 
 
-    p.mb-0 Tanto el VPN como la TIR, deben ser positivos para aceptar el proyecto, con el fin de asegurar su viabilidad en el futuro, por eso se debe ser muy preciso y consciente en el manejo de cada uno de los datos, para que se obtengan resultados válidos que permitan guiar eficazmente un proyecto.
+    p.mb-0(data-aos="fade-right") Tanto el VPN como la TIR, deben ser positivos para aceptar el proyecto, con el fin de asegurar su viabilidad en el futuro, por eso se debe ser muy preciso y consciente en el manejo de cada uno de los datos, para que se obtengan resultados válidos que permitan guiar eficazmente un proyecto.
 
 
 </template>

@@ -21,7 +21,7 @@
     #t_3_1.titulo-segundo.color-primario
       h2 3.1 Costos de producción
 
-    p.mb-4 En el proceso de producción de un bien, la empresa incurre en unos egresos o gastos, que se denominan costos de producción o costos de operación, estos son necesarios para mantener un proyecto, línea de procesamiento o un equipo en funcionamiento.  Algunos de estos son: 
+    p.mb-4(data-aos="fade-right") En el proceso de producción de un bien, la empresa incurre en unos egresos o gastos, que se denominan costos de producción o costos de operación, estos son necesarios para mantener un proyecto, línea de procesamiento o un equipo en funcionamiento.  Algunos de estos son: 
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-1.col-2.pe-0
@@ -32,7 +32,7 @@
           .d-flex.align-items-center.mb-1
             h2.mb-0 Costos y gastos de fabricación
     
-    p.mb-4 Aquí se encuentran todos los elementos que hacen parte en el proceso de producción, como: la materia prima o materiales (directos e indirectos), la mano de obra (directa e indirecta), la depreciación de los equipos, los servicios públicos y todo lo que tiene que ver con el proceso de producción de un bien.
+    p.mb-4(data-aos="fade-right") Aquí se encuentran todos los elementos que hacen parte en el proceso de producción, como: la materia prima o materiales (directos e indirectos), la mano de obra (directa e indirecta), la depreciación de los equipos, los servicios públicos y todo lo que tiene que ver con el proceso de producción de un bien.
 
     .row.fondo1.align-items-center.p-3.mb-4(data-aos="fade-down")
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
@@ -55,13 +55,13 @@
             .row.justify-content-center.p-4
               .col-lg-7.col-12.my-3
                 h4.mb-4 Mano de obra directa
-                p.mb-4 Es la que realiza el proceso de transformación de la materia prima o materiales directos, en un producto terminado; en otras palabras, realiza el trabajo físico en la elaboración del producto. Ejemplo: corta la madera en partes, pega y pinta la silla, etc.
+                p.mb-4 Es la que realiza el proceso de transformación de la materia prima o materiales directos, en un producto terminado; en otras palabras, realiza el trabajo físico en la elaboración del producto. Ejemplo: el trabajador que corta, ensambla y pinta la madera para crear una silla.
               .col-lg-4.col-12.col-md-9.my-3
                 img(alt="" src="@/assets/curso/temas/40.png")
             .row.justify-content-center.p-4
               .col-lg-7.col-12.my-3
                 h4.mb-4 Mano de obra indirecta
-                p.mb-4 No es la que realiza el proceso de transformación de la materia prima en el producto de forma directa, pero sirve de apoyo a la producción, esta puede ser el salario que se paga a los supervisores, vigilantes, secretarias, asistentes administrativos, personal de mantenimiento, entre otros.
+                p.mb-4 No participa directamente en la transformación del producto, pero apoya el proceso de producción. Incluye los salarios de supervisores, vigilantes, secretarias, personal de mantenimiento, entre otros.
               .col-lg-4.col-12.col-md-9.my-3
                 img(alt="" src="@/assets/curso/temas/41.png")
             .row.justify-content-center.p-4
@@ -80,7 +80,7 @@
           .d-flex.align-items-center.mb-1
             h2.mb-0 Gastos de venta
     
-    p.mb-4 Se originan cuando la empresa comercializa sus productos y realiza actividades promocionales. Incluyen salarios y comisiones del personal de ventas, costos de publicidad y propaganda, gastos de entrega de mercancías, transporte, y viáticos, entre otros.
+    p.mb-4(data-aos="fade-right") Se originan cuando la empresa comercializa sus productos y realiza actividades promocionales. Incluyen salarios y comisiones del personal de ventas, costos de publicidad y propaganda, gastos de entrega de mercancías, transporte, y viáticos, entre otros.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.pe-0
@@ -91,7 +91,7 @@
           .d-flex.align-items-center.mb-1
             h2.mb-0 Gastos de administración
     
-    p.mb-4 Son aquellos asociados a la gestión administrativa de la empresa, sin estar directamente relacionados con la producción. Ejemplos incluyen salarios del personal administrativo, honorarios, depreciación de activos, alquileres, servicios públicos, papelería, artículos de oficina, seguros, impuestos y mantenimiento. 
+    p.mb-4(data-aos="fade-right") Son aquellos asociados a la gestión administrativa de la empresa, sin estar directamente relacionados con la producción. Ejemplos incluyen salarios del personal administrativo, honorarios, depreciación de activos, alquileres, servicios públicos, papelería, artículos de oficina, seguros, impuestos y mantenimiento. 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.pe-0
@@ -102,14 +102,14 @@
           .d-flex.align-items-center.mb-1
             h2.mb-0 Gastos financieros
     
-    p.mb-0 Se refieren a los costos derivados del financiamiento de la empresa, como los intereses sobre préstamos bancarios o de terceros. También incluyen comisiones asociadas a la formalización de préstamos y otros servicios bancarios relacionados con el financiamiento.
+    p.mb-0(data-aos="fade-right") Se refieren a los costos derivados del financiamiento de la empresa, como los intereses sobre préstamos bancarios o de terceros. También incluyen comisiones asociadas a la formalización de préstamos y otros servicios bancarios relacionados con el financiamiento.
 
 
     separador
     #t_3_2.titulo-segundo.color-primario
       h2 3.2 Costo unitario
     
-    p.mb-4 Después de establecer los costos totales en los cuales se incurrirá para llevar a cabo las actividades de la empresa en un determinado ciclo, por lo general un año, se hace necesario determinar el costo unitario del producto fabricado. En el proceso de producción de un bien y de acuerdo con su complejidad, intervienen muchos gastos, por lo tanto, es preciso clasificarlos en gastos fijos y gastos variables.  A continuación, se describe a qué hace referencia cada uno de ellos:
+    p.mb-4(data-aos="fade-right") Después de establecer los costos totales en los cuales se incurrirá para llevar a cabo las actividades de la empresa en un determinado ciclo, por lo general un año, se hace necesario determinar el costo unitario del producto fabricado. En el proceso de producción de un bien y de acuerdo con su complejidad, intervienen muchos gastos, por lo tanto, es preciso clasificarlos en gastos fijos y gastos variables.  A continuación, se describe a qué hace referencia cada uno de ellos:
 
     .row.fondo1.align-items-center.p-3.mb-5(data-aos="fade-down")
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
@@ -130,7 +130,7 @@
               .col-lg-4.col-12.col-md-9.my-3
                 img(alt="" src="@/assets/curso/temas/44.png")
     
-    p.mb-4 La siguiente tabla, sirve de ejemplo para clasificar los costos fijos y variables:
+    p.mb-4(data-aos="fade-right") La siguiente tabla, sirve de ejemplo para clasificar los costos fijos y variables:
 
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-12
@@ -170,10 +170,10 @@
                 td 
                 td 
     
-    p.mb-4 Cuando se ha determinado el total de los costos fijos y costos variables, se puede establecer los costos totales de producción, usando la siguiente formula: 
+    p.mb-4(data-aos="fade-right") Cuando se ha determinado el total de los costos fijos y costos variables, se puede establecer los costos totales de producción, usando la siguiente fórmula: 
     
-    h3.mb-4 CT = CF + CV
-    p.mb-4 en dónde,
+    h3.mb-4(data-aos="fade-right") CT = CF + CV
+    p.mb-4(data-aos="fade-right") en dónde,
     
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")(alt="")
       .col-lg-12
@@ -191,10 +191,10 @@
             h3.mb-4 CV
             p.text-black Costos variables. 
     
-    p.mb-4 Teniendo el dato del costo total, el fabricante, puede determinar cuánto le cuesta producir una unidad, es decir el costo unitario, aplicando la siguiente formula. 
+    p.mb-4(data-aos="fade-right") Teniendo el dato del costo total, el fabricante, puede determinar cuánto le cuesta producir una unidad, es decir el costo unitario, aplicando la siguiente fórmula. 
     
-    h3.mb-4 CU = CT / n
-    p.mb-4 en dónde,
+    h3.mb-4(data-aos="fade-right") CU = CT / n
+    p.mb-4(data-aos="fade-right") en dónde,
     
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-12
@@ -210,7 +210,7 @@
             p.text-black Costo total de producción.
           .tarjeta.color-acento-contenido.p-3(x="58.5%" y="66.8%" numero="") 
             h3.mb-4 N
-            p.text-black Costos variables. 
+            p.text-black Número total de unidades producidas.
 
     separador
     #t_3_3.titulo-segundo.color-primario
@@ -233,10 +233,10 @@
       .col-lg-4.col-md-9.col-9
         img(src='@/assets/curso/temas/47.png', alt='')
     
-    p.mb-4 La fórmula para determinar el precio de venta es: 
+    p.mb-4(data-aos="fade-right") La fórmula para determinar el precio de venta es: 
 
-    h3.mb-4 PV = CT + MU, 
-    p.mb-4 en dónde,
+    h3.mb-4(data-aos="fade-right") PV = CT + MU
+    p.mb-4(data-aos="fade-right") en dónde,
     
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-12
