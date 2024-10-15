@@ -120,12 +120,12 @@
         .overflow-hidden.h-100.bg2.p-4
           img.img-a.img-t.mb-4.my-3(data-aos="zoom-in-left")(src='@/assets/curso/temas/29.svg', alt='tema1')
           h4.mb-4.text-center Recursos tecnológicos tangibles
-          p.text-center Incluyen equipos y dispositivos físicos, como computadoras, impresoras, máquinas y hardware, que son esenciales para las operaciones técnicas y productivas.
+          p.text-center Incluyen equipos y dispositivos físicos, como computadoras, impresoras, máquinas y #[em hardware], que son esenciales para las operaciones técnicas y productivas.
       .col-lg-4.col-md-6.mb-4
         .overflow-hidden.h-100.bg2.p-4
           img.img-a.img-t.mb-4.my-3(data-aos="zoom-in-left")(src='@/assets/curso/temas/30.svg', alt='tema1')
           h4.mb-4.text-center Recursos tecnológicos intangibles
-          p.text-center Incluyen sistemas y aplicaciones virtuales, software, internet y redes, que facilitan la comunicación, automatización y eficiencia en los procesos.
+          p.text-center Incluyen sistemas y aplicaciones virtuales, #[em software], internet y redes, que facilitan la comunicación, automatización y eficiencia en los procesos.
     
     p.mb-4(data-aos="fade-right") Las empresas que cuentan con tecnología avanzada y sistemas eficientes tienen una ventaja competitiva significativa. La implementación adecuada de estos recursos tecnológicos mejora la productividad, reduce tiempos de respuesta y optimiza la calidad del servicio, lo que a su vez influye en la satisfacción del cliente y en la competitividad en el mercado.
     

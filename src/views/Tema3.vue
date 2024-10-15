@@ -136,7 +136,7 @@
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 1.  
-          | Costos fijos y variables (en miles de pesos)
+          | Clasificación de costos fijos y variables
 
     .row.justify-content-center.mb-4(data-aos="zoom-in-left")(alt="")
       .col-lg-10
@@ -173,7 +173,6 @@
     p.mb-4(data-aos="fade-right") Cuando se ha determinado el total de los costos fijos y costos variables, se puede establecer los costos totales de producción, usando la siguiente fórmula: 
     
     h3.mb-4(data-aos="fade-right") CT = CF + CV
-    p.mb-4(data-aos="fade-right") en dónde,
     
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")(alt="")
       .col-lg-12
@@ -194,7 +193,6 @@
     p.mb-4(data-aos="fade-right") Teniendo el dato del costo total, el fabricante, puede determinar cuánto le cuesta producir una unidad, es decir el costo unitario, aplicando la siguiente fórmula. 
     
     h3.mb-4(data-aos="fade-right") CU = CT / n
-    p.mb-4(data-aos="fade-right") en dónde,
     
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-12
@@ -236,7 +234,6 @@
     p.mb-4(data-aos="fade-right") La fórmula para determinar el precio de venta es: 
 
     h3.mb-4(data-aos="fade-right") PV = CT + MU
-    p.mb-4(data-aos="fade-right") en dónde,
     
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
       .col-lg-12

@@ -75,19 +75,19 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/70.png')})`}"
       )
       .bloque-texto-g__texto.p-5
-        p.mb-0 Ejemplo TIO: suponga que la señorita Laura Galindo acostumbra a realizar inversiones en CDT, en los cuales le pagan en promedio el 32% efectivo anual de intereses. (La Tasa de Interés de Oportunidad para esta persona equivaldría a ese mismo 32% efectivo anual en términos corrientes).
+        p.mb-0 Ejemplo TIO: suponga que la señorita Laura Galindo acostumbra a realizar inversiones en CDT, en los cuales le pagan en promedio el 32 % efectivo anual de intereses. (La Tasa de Interés de Oportunidad para esta persona equivaldría a ese mismo 32 % efectivo anual en términos corrientes).
     
     
     .row.justify-content-center.align-items-center
       .col-lg-4.mb-3
         p.mb-4 En términos constantes se asumiría la tasa real del inversionista, donde a la tasa de oportunidad se le descuenta la tasa de inflación. 
-        p.mb-4 Si la tasa de oportunidad es del 2,5% mensual y la tasa de inflación es del 1,5% mensual. ¿Cuál es la tasa real de oportunidad del inversionista?
-      .col-lg-6.mb-3
+        p.mb-4 Si la tasa de oportunidad es del 2,5 % mensual y la tasa de inflación es del 1,5 % mensual. ¿Cuál es la tasa real de oportunidad del inversionista?
+      .col-lg-6.mb-4
         .cajon.color-primario.p-5
           h3.mb-3.text-center TR = (TIO - Inflación) / (1 + Inflación)
           h3.mb-3.text-center TR = (0,025-0,015) / (1 + 0,015)
-          h3.mb-0.text-center TR = 0,99%
-      .col-lg-2.col-md-7.col-7.mb-3
+          h3.mb-0.text-center TR = 0,99 %
+      .col-lg-2.col-md-5.col-5.mb-3
         img(alt="" src="@/assets/curso/temas/71.svg")
 
     separador
@@ -152,15 +152,15 @@
       .col-lg-4.col-md-6.mb-4
         .overflow-hidden.h-100.bg2.p-4
           img.img-a.img-t.mb-4.my-3(src='@/assets/curso/temas/74.svg', alt='tema1')
-          p.text-center.mb-5 Si el VAN es positivo (VAN>0), la rentabilidad de la inversión es mayor que la tasa actualizada o de rechazo. En consecuencia, el proyecto se acepta. 
+          p.text-center.mb-5 Si el VAN es positivo (VAN > 0), la rentabilidad de la inversión es mayor que la tasa actualizada o de rechazo. En consecuencia, el proyecto se acepta. 
       .col-lg-4.col-md-6.mb-4
         .overflow-hidden.h-100.bg2.p-4
           img.img-a.img-t.mb-4.my-3(src='@/assets/curso/temas/75.svg', alt='tema1')
-          p.text-center.mb-5 Si el VAN es cero (VAN=0), entonces la rentabilidad es igual a la tasa de rechazo, por tanto, el proyecto se considera aceptable. 
+          p.text-center.mb-5 Si el VAN es cero (VAN = 0), entonces la rentabilidad es igual a la tasa de rechazo, por tanto, el proyecto se considera aceptable. 
       .col-lg-4.col-md-6.mb-4
         .overflow-hidden.h-100.bg2.p-4
           img.img-a.img-t.mb-4.my-3(src='@/assets/curso/temas/76.svg', alt='tema1')
-          p.text-center.mb-5 Si el VAN es negativo (VAN<0), significa que, la rentabilidad se encuentra por debajo de la tasa de rechazo y, en consecuencia, el proyecto debe descartarse. 
+          p.text-center.mb-5 Si el VAN es negativo (VAN < 0), significa que, la rentabilidad se encuentra por debajo de la tasa de rechazo y, en consecuencia, el proyecto debe descartarse. 
     
     
     .row.justify-content-center(data-aos="zoom-in-left")(alt="")
@@ -269,15 +269,8 @@
                 td.text-center
                 td.text-center 
                 td.text-center
-              tr
-                td.text-center 
-                td.text-center
-                td.text-center 
-                td.text-center
-                td.text-center 
-                td.text-center
     
-    p.mb-0(data-aos="fade-right") Para el caso de la tabla anterior, con una tasa de descuento de aproximadamente 19%, el resultado es un VAN positivo, por lo que se acepta la ejecución del proyecto. En el año cero (0) aparece la inversión inicial, y a partir del año 1 los flujos resultaron ser positivos, entonces la suma de todos los flujos se le resta a la inversión inicial de $12,845.4 por ser desembolso, lo que brinda un valor positivo final. 
+    p.mb-0(data-aos="fade-right") Para el caso de la tabla anterior, con una tasa de descuento de aproximadamente 19 %, el resultado es un VAN positivo, por lo que se acepta la ejecución del proyecto. En el año cero (0) aparece la inversión inicial, y a partir del año 1 los flujos resultaron ser positivos, entonces la suma de todos los flujos se le resta a la inversión inicial de $12,845.4 por ser desembolso, lo que brinda un valor positivo final. 
 
     separador
     #t_5_4.titulo-segundo.color-primario
@@ -455,13 +448,7 @@
                 td.text-center 5.000.000
                 td.text-center 1.000.000
                 td.text-center 4.000.000
-              tr
-                td.text-center 
-                td.text-center 
-                td.text-center 
-                td.text-center
-                td.text-center 
-    
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-md-9.col-9.mb-4.mb-lg-0(data-aos='fade-right')
         img(src='@/assets/curso/temas/77.png', alt='')
@@ -482,7 +469,7 @@
                   .row.justify-content-center.align-items-center
                     .col-lg-12
                       p.mb-4 2. Cálculo costo de capital: el costo de capital se compone de las siguientes fuentes:
-                      p.mb-0 Patrimonio y bancos, de los $120.000.000COP de inversión inicial, $70.000.000 hacen parte de la primera fuente y $50.000.000 forman parte de la segunda fuente. 
+                      p.mb-0 Patrimonio y bancos, de los $120.000.000 COP de inversión inicial, $70.000.000 hacen parte de la primera fuente y $50.000.000 forman parte de la segunda fuente. 
             .row.justify-content-center
               .col-md-11
                 .tarjeta.tarjeta--blanca.p-5
@@ -508,7 +495,7 @@
                 .tarjeta.tarjeta--blanca.p-5
                   .row.justify-content-center.align-items-center
                     .col-lg-12
-                      p.mb-0 6. Para concluir, se comparan los dos porcentajes: la TIR y el costo de capital, en este caso serían -2 % y - 1,9795%. Por lo tanto, el proyecto bajo el parámetro TIR no se acepta, debido a que el costo de capital es mayor que la tasa interna de retorno, lo cual genera pérdidas de 3,6926 % durante cada mes que se ejecute el proyecto.
+                      p.mb-0 6. Para concluir, se comparan los dos porcentajes: la TIR y el costo de capital, en este caso serían -2 % y - 1,9795 %. Por lo tanto, el proyecto bajo el parámetro TIR no se acepta, debido a que el costo de capital es mayor que la tasa interna de retorno, lo cual genera pérdidas de 3,6926 % durante cada mes que se ejecute el proyecto.
     
     p.mb-4(data-aos="fade-right") Esta tabla presenta el resumen para el cálculo del costo de capital.
 
