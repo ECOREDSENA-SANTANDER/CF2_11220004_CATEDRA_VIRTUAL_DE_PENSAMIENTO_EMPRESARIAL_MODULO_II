@@ -232,7 +232,7 @@ export default {
       referencia:
         'Baca Urbina, G. (2013). Evaluación de proyectos: (7 ed.). McGraw-Hill.',
       link:
-        'https://www.academia.edu/34845341/Evaluacion_de_Proyectos_Urbina_Baca_7m_pdf',
+        'https://www.uachatec.com.mx/wp-content/uploads/2019/05/LIBRO-Evaluaci%C2%A2n-de-proyectos-7ma-Edici%C2%A2n-Gabriel-Baca-Urbina-FREELIBROS.ORG_.pdf',
     },
     {
       referencia:

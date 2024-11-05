@@ -134,12 +134,12 @@
       .col-lg-6
         .cajon.color-primario.p-4
           .row.justify-content-center.align-items-center.mb-4
-            .col-lg-2.col-md-3.col-3.pe-0.ps-0
+            .col-lg-2.col-md-2.col-3.pe-0.ps-0.mx-0
               h4.mb-0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1
               h4.mb-0 ________
               h4.mb-0 (1 + i)<sup>#[em n]</sup>
-            .col-lg-5.col-md-6.col-8.pe-0.ps-0
-              h4.mb-0 = Factor de actualización
+            .col-lg-5.col-md-5.col-9.pe-0.ps-0
+              h4.mb-0.my-3 = Factor de actualización
           .row.justify-content-center.align-items-center
             .col-lg-6.col-md-6.col-6
               h4.mb-3.text-center Et = Egresos totales
