@@ -56,7 +56,7 @@ export default {
           id: 2,
           texto:
             '¿Qué enfoque de selección busca formar al nuevo colaborador de acuerdo con los valores de la empresa?',
-          imagen: require('@/assets/componentes/img1.png'),
+          imagen: require('@/assets/componentes/img2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Formación continua.', esCorrecta: true },
@@ -71,7 +71,7 @@ export default {
           id: 3,
           texto:
             'La inducción en una empresa se utiliza principalmente para reestructurar el equipo de trabajo.',
-          imagen: require('@/assets/componentes/img1.png'),
+          imagen: require('@/assets/componentes/img3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Falso', esCorrecta: true },
@@ -84,7 +84,7 @@ export default {
           id: 4,
           texto:
             '¿Cuál es una de las principales ventajas de usar redes sociales en el proceso de reclutamiento?',
-          imagen: require('@/assets/componentes/img1.png'),
+          imagen: require('@/assets/componentes/img4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -116,7 +116,7 @@ export default {
           id: 5,
           texto:
             'El análisis de cargos es importante para asegurar que el candidato seleccionado cumpla con las expectativas del rol.',
-          imagen: require('@/assets/componentes/img1.png'),
+          imagen: require('@/assets/componentes/img5.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -160,7 +160,7 @@ export default {
           id: 7,
           texto:
             '¿Qué sucede si una empresa tiene ingresos elevados pero sus gastos son aún mayores?',
-          imagen: require('@/assets/componentes/img1.png'),
+          imagen: require('@/assets/componentes/img2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -191,7 +191,7 @@ export default {
           id: 8,
           texto:
             'El flujo de caja refleja el movimiento de efectivo de una empresa en un periodo determinado.',
-          imagen: require('@/assets/componentes/img1.png'),
+          imagen: require('@/assets/componentes/img3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -203,7 +203,7 @@ export default {
         {
           id: 9,
           texto: '¿Qué implica un punto de equilibrio bajo en un proyecto?',
-          imagen: require('@/assets/componentes/img1.png'),
+          imagen: require('@/assets/componentes/img4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -237,7 +237,7 @@ export default {
           id: 10,
           texto:
             'Un proyecto es aceptable cuando la Tasa Interna de Retorno (TIR) es mayor que el costo de capital.',
-          imagen: require('@/assets/componentes/img1.png'),
+          imagen: require('@/assets/componentes/img5.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
