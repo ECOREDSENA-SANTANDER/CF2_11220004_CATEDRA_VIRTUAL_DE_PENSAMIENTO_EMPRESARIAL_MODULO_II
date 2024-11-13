@@ -230,12 +230,6 @@ export default {
     },
     {
       referencia:
-        'Baca Urbina, G. (2013). Evaluación de proyectos: (7 ed.). McGraw-Hill.',
-      link:
-        'https://www.uachatec.com.mx/wp-content/uploads/2019/05/LIBRO-Evaluaci%C2%A2n-de-proyectos-7ma-Edici%C2%A2n-Gabriel-Baca-Urbina-FREELIBROS.ORG_.pdf',
-    },
-    {
-      referencia:
         'Meza Orozco, J. D. J. (2011). Matemáticas financieras aplicadas: (4 ed.). Ecoe Ediciones.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/96913?page=1',
